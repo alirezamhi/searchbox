@@ -1,0 +1,63 @@
+
+@font-face {
+	font-family: 'Yekan';
+	src:	url('Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('/Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('/Yekan-Font-master/') format('opentype'), /* Open Type Font */	
+			url('/Yekan-Font-master/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(90deg ,#ff0000 , #ff8800);
+    direction: rtl;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.active{
+     display: inline;
+}
+input{
+    font-family: Yekan;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 50%;
+    padding: 10px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    display: none;
+    transition:  .4s ease-in;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+button{
+    padding: 9px;
+    border: none;
+    background: rgb(179, 179, 179);
+    cursor: pointer;
+    height: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+}
